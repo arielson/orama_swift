@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2213FC0C2697A9D80086FF9B /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213FC0B2697A9D80086FF9B /* AsyncImage.swift */; };
+		2213FC112697ACD90086FF9B /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213FC102697ACD90086FF9B /* ImageLoader.swift */; };
+		2213FC162697AD530086FF9B /* ImageCache .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213FC152697AD530086FF9B /* ImageCache .swift */; };
+		2213FC1B2697AD860086FF9B /* EnvironmentValues+ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2213FC1A2697AD860086FF9B /* EnvironmentValues+ImageCache.swift */; };
+		224891FD26965D0C005B1D30 /* OramaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224891FC26965D0C005B1D30 /* OramaApp.swift */; };
+		224891FF26965D0C005B1D30 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224891FE26965D0C005B1D30 /* SplashView.swift */; };
+		2248920126965D0D005B1D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2248920026965D0D005B1D30 /* Assets.xcassets */; };
+		2248920426965D0D005B1D30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2248920326965D0D005B1D30 /* Preview Assets.xcassets */; };
+		2248920F26965D0E005B1D30 /* OramaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248920E26965D0E005B1D30 /* OramaTests.swift */; };
+		2248921A26965D0E005B1D30 /* OramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248921926965D0E005B1D30 /* OramaUITests.swift */; };
+		22489234269667DF005B1D30 /* FundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22489233269667DF005B1D30 /* FundsView.swift */; };
+		2248924026966B17005B1D30 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2248923F26966B17005B1D30 /* Alamofire */; };
+		2248924526966F44005B1D30 /* Fund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2248924426966F44005B1D30 /* Fund.swift */; };
+		22790F8C26970CC900DD6046 /* FundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22790F8B26970CC900DD6046 /* FundView.swift */; };
+		22790F9126970CDF00DD6046 /* FundDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22790F9026970CDF00DD6046 /* FundDetailsView.swift */; };
+		22790F992697404700DD6046 /* FundsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22790F982697404700DD6046 /* FundsObserver.swift */; };
+		22790FA12697581200DD6046 /* CardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22790FA02697581200DD6046 /* CardModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2248920B26965D0E005B1D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224891F126965D0C005B1D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224891F826965D0C005B1D30;
+			remoteInfo = Orama;
+		};
+		2248921626965D0E005B1D30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224891F126965D0C005B1D30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224891F826965D0C005B1D30;
+			remoteInfo = Orama;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2213FC0B2697A9D80086FF9B /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
+		2213FC102697ACD90086FF9B /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		2213FC152697AD530086FF9B /* ImageCache .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageCache .swift"; sourceTree = "<group>"; };
+		2213FC1A2697AD860086FF9B /* EnvironmentValues+ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+ImageCache.swift"; sourceTree = "<group>"; };
+		224891F926965D0C005B1D30 /* Orama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224891FC26965D0C005B1D30 /* OramaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OramaApp.swift; sourceTree = "<group>"; };
+		224891FE26965D0C005B1D30 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		2248920026965D0D005B1D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2248920326965D0D005B1D30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2248920526965D0D005B1D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2248920A26965D0E005B1D30 /* OramaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OramaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2248920E26965D0E005B1D30 /* OramaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OramaTests.swift; sourceTree = "<group>"; };
+		2248921026965D0E005B1D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2248921526965D0E005B1D30 /* OramaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OramaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2248921926965D0E005B1D30 /* OramaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OramaUITests.swift; sourceTree = "<group>"; };
+		2248921B26965D0E005B1D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22489233269667DF005B1D30 /* FundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundsView.swift; sourceTree = "<group>"; };
+		2248924426966F44005B1D30 /* Fund.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fund.swift; sourceTree = "<group>"; };
+		22790F8B26970CC900DD6046 /* FundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundView.swift; sourceTree = "<group>"; };
+		22790F9026970CDF00DD6046 /* FundDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundDetailsView.swift; sourceTree = "<group>"; };
+		22790F982697404700DD6046 /* FundsObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundsObserver.swift; sourceTree = "<group>"; };
+		22790FA02697581200DD6046 /* CardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224891F626965D0C005B1D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248924026966B17005B1D30 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248920726965D0E005B1D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248921226965D0E005B1D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224891F026965D0C005B1D30 = {
+			isa = PBXGroup;
+			children = (
+				224891FB26965D0C005B1D30 /* Orama */,
+				2248920D26965D0E005B1D30 /* OramaTests */,
+				2248921826965D0E005B1D30 /* OramaUITests */,
+				224891FA26965D0C005B1D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224891FA26965D0C005B1D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224891F926965D0C005B1D30 /* Orama.app */,
+				2248920A26965D0E005B1D30 /* OramaTests.xctest */,
+				2248921526965D0E005B1D30 /* OramaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224891FB26965D0C005B1D30 /* Orama */ = {
+			isa = PBXGroup;
+			children = (
+				224891FC26965D0C005B1D30 /* OramaApp.swift */,
+				224891FE26965D0C005B1D30 /* SplashView.swift */,
+				2248920026965D0D005B1D30 /* Assets.xcassets */,
+				2248920526965D0D005B1D30 /* Info.plist */,
+				2248920226965D0D005B1D30 /* Preview Content */,
+				2248924426966F44005B1D30 /* Fund.swift */,
+				22489233269667DF005B1D30 /* FundsView.swift */,
+				22790F8B26970CC900DD6046 /* FundView.swift */,
+				22790F9026970CDF00DD6046 /* FundDetailsView.swift */,
+				22790F982697404700DD6046 /* FundsObserver.swift */,
+				22790FA02697581200DD6046 /* CardModifier.swift */,
+				2213FC0B2697A9D80086FF9B /* AsyncImage.swift */,
+				2213FC102697ACD90086FF9B /* ImageLoader.swift */,
+				2213FC152697AD530086FF9B /* ImageCache .swift */,
+				2213FC1A2697AD860086FF9B /* EnvironmentValues+ImageCache.swift */,
+			);
+			path = Orama;
+			sourceTree = "<group>";
+		};
+		2248920226965D0D005B1D30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2248920326965D0D005B1D30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2248920D26965D0E005B1D30 /* OramaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2248920E26965D0E005B1D30 /* OramaTests.swift */,
+				2248921026965D0E005B1D30 /* Info.plist */,
+			);
+			path = OramaTests;
+			sourceTree = "<group>";
+		};
+		2248921826965D0E005B1D30 /* OramaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2248921926965D0E005B1D30 /* OramaUITests.swift */,
+				2248921B26965D0E005B1D30 /* Info.plist */,
+			);
+			path = OramaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224891F826965D0C005B1D30 /* Orama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2248921E26965D0E005B1D30 /* Build configuration list for PBXNativeTarget "Orama" */;
+			buildPhases = (
+				224891F526965D0C005B1D30 /* Sources */,
+				224891F626965D0C005B1D30 /* Frameworks */,
+				224891F726965D0C005B1D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Orama;
+			packageProductDependencies = (
+				2248923F26966B17005B1D30 /* Alamofire */,
+			);
+			productName = Orama;
+			productReference = 224891F926965D0C005B1D30 /* Orama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2248920926965D0E005B1D30 /* OramaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2248922126965D0E005B1D30 /* Build configuration list for PBXNativeTarget "OramaTests" */;
+			buildPhases = (
+				2248920626965D0E005B1D30 /* Sources */,
+				2248920726965D0E005B1D30 /* Frameworks */,
+				2248920826965D0E005B1D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2248920C26965D0E005B1D30 /* PBXTargetDependency */,
+			);
+			name = OramaTests;
+			productName = OramaTests;
+			productReference = 2248920A26965D0E005B1D30 /* OramaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2248921426965D0E005B1D30 /* OramaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2248922426965D0E005B1D30 /* Build configuration list for PBXNativeTarget "OramaUITests" */;
+			buildPhases = (
+				2248921126965D0E005B1D30 /* Sources */,
+				2248921226965D0E005B1D30 /* Frameworks */,
+				2248921326965D0E005B1D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2248921726965D0E005B1D30 /* PBXTargetDependency */,
+			);
+			name = OramaUITests;
+			productName = OramaUITests;
+			productReference = 2248921526965D0E005B1D30 /* OramaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224891F126965D0C005B1D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					224891F826965D0C005B1D30 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2248920926965D0E005B1D30 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 224891F826965D0C005B1D30;
+					};
+					2248921426965D0E005B1D30 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 224891F826965D0C005B1D30;
+					};
+				};
+			};
+			buildConfigurationList = 224891F426965D0C005B1D30 /* Build configuration list for PBXProject "Orama" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224891F026965D0C005B1D30;
+			packageReferences = (
+				2248923E26966B17005B1D30 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 224891FA26965D0C005B1D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224891F826965D0C005B1D30 /* Orama */,
+				2248920926965D0E005B1D30 /* OramaTests */,
+				2248921426965D0E005B1D30 /* OramaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224891F726965D0C005B1D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248920426965D0D005B1D30 /* Preview Assets.xcassets in Resources */,
+				2248920126965D0D005B1D30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248920826965D0E005B1D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248921326965D0E005B1D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224891F526965D0C005B1D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22790F8C26970CC900DD6046 /* FundView.swift in Sources */,
+				2213FC0C2697A9D80086FF9B /* AsyncImage.swift in Sources */,
+				2213FC112697ACD90086FF9B /* ImageLoader.swift in Sources */,
+				22489234269667DF005B1D30 /* FundsView.swift in Sources */,
+				2213FC1B2697AD860086FF9B /* EnvironmentValues+ImageCache.swift in Sources */,
+				2213FC162697AD530086FF9B /* ImageCache .swift in Sources */,
+				22790F992697404700DD6046 /* FundsObserver.swift in Sources */,
+				22790F9126970CDF00DD6046 /* FundDetailsView.swift in Sources */,
+				224891FF26965D0C005B1D30 /* SplashView.swift in Sources */,
+				2248924526966F44005B1D30 /* Fund.swift in Sources */,
+				22790FA12697581200DD6046 /* CardModifier.swift in Sources */,
+				224891FD26965D0C005B1D30 /* OramaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248920626965D0E005B1D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248920F26965D0E005B1D30 /* OramaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2248921126965D0E005B1D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2248921A26965D0E005B1D30 /* OramaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2248920C26965D0E005B1D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224891F826965D0C005B1D30 /* Orama */;
+			targetProxy = 2248920B26965D0E005B1D30 /* PBXContainerItemProxy */;
+		};
+		2248921726965D0E005B1D30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224891F826965D0C005B1D30 /* Orama */;
+			targetProxy = 2248921626965D0E005B1D30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2248921C26965D0E005B1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2248921D26965D0E005B1D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2248921F26965D0E005B1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Orama/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Orama/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.net.ari.Orama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2248922026965D0E005B1D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Orama/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Orama/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.net.ari.Orama;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2248922226965D0E005B1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OramaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.net.ari.OramaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orama.app/Orama";
+			};
+			name = Debug;
+		};
+		2248922326965D0E005B1D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OramaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.net.ari.OramaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Orama.app/Orama";
+			};
+			name = Release;
+		};
+		2248922526965D0E005B1D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OramaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.net.ari.OramaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orama;
+			};
+			name = Debug;
+		};
+		2248922626965D0E005B1D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OramaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.net.ari.OramaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orama;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224891F426965D0C005B1D30 /* Build configuration list for PBXProject "Orama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2248921C26965D0E005B1D30 /* Debug */,
+				2248921D26965D0E005B1D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2248921E26965D0E005B1D30 /* Build configuration list for PBXNativeTarget "Orama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2248921F26965D0E005B1D30 /* Debug */,
+				2248922026965D0E005B1D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2248922126965D0E005B1D30 /* Build configuration list for PBXNativeTarget "OramaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2248922226965D0E005B1D30 /* Debug */,
+				2248922326965D0E005B1D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2248922426965D0E005B1D30 /* Build configuration list for PBXNativeTarget "OramaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2248922526965D0E005B1D30 /* Debug */,
+				2248922626965D0E005B1D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2248923E26966B17005B1D30 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2248923F26966B17005B1D30 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2248923E26966B17005B1D30 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 224891F126965D0C005B1D30 /* Project object */;
+}
